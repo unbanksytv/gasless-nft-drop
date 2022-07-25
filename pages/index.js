@@ -5,7 +5,7 @@ export default function Home() {
   const connectWithMetamask = useMetamask();
   const address = useAddress();
   const editionDrop = useEditionDrop(
-    "0xcDFA0Db479d35e1D1C76bf2D65166e32Ce42F048"
+    "0x4E953584EaaeB49a91D0456C7d6d4B4B180B92A5"
   );
   
   const tokenId = 0;
