@@ -1,5 +1,5 @@
 import { useMetamask, useAddress, useEditionDrop } from "@thirdweb-dev/react";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Nft.module.css";
 
 export default function Home() {
   const connectWithMetamask = useMetamask();

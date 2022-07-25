@@ -20,7 +20,3 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
-
-const Container = tw.div`
- text-white
-`
