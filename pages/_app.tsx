@@ -7,6 +7,8 @@ import '../styles/globals.css'
 import { store } from '../common/redux'
 import { MainLayout } from '../common/layouts/MainLayout'
 
+const supportedChainIds = [1, 4, 137, 80001];
+
 const chain = parseInt(process.env.NEXT_CHAIN) || ChainId.Rinkeby
 
 const LTLMarketplace: FC<AppProps> = ({ Component, pageProps }) => (
