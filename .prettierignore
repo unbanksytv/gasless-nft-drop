@@ -10,3 +10,7 @@ typechain/
 
 # files
 coverage.json
+
+yarn.lock
+package-lock.json
+Truffle/
