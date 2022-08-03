@@ -38,7 +38,8 @@
     "tsparticles-updater-roll": "^2.1.0",
     "tsparticles-updater-wobble": "^2.1.0",
     "ts-pattern": "^4.0.3",
-    "wagmi": "^0.4.8"
+    "@rainbow-me/rainbowkit": "0.4.5",
+    "wagmi": "^0.6.0"
   },
   "devDependencies": {
     "@redux-devtools/core": "^3.13.1",
