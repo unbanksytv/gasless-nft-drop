@@ -25,11 +25,6 @@ This project shows you how to make a gasless NFT drop using the Edition Drop Con
 - [Official Thirdweb Docs](https://docs.thirdeb.com)
 - [Community Discord](https://discord.gg/thirdweb)
 
-# [Good Vibes Ohmly](https://livethelifetvdao.notion.site/livethelifetvdao/Good-Vibes-Ohmly-Draft-Proposal-34b49279d917473a8054443d0c6d2ae1)
-This is the front-end repo for Good Vibes Ohmly. 
-
-**_ Note We're currently in the process of switching to TypeScript. Please read  this  guide on how to use TypeScript for this repository. https://github.com/OlympusDAO/olympus-frontend/wiki/TypeScript-Refactor-General-Guidelines _**
-
 ##  🔧 Setting up Local Development
 
 Required: 
