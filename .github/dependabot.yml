@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: 'yarn'
+    directory: '/'
+    open-pull-requests-limit: 5
+    reviewers:
+      - 'LTL'
+    schedule:
+      interval: 'daily'
+      time: '04:00'
+    target-branch: 'develop'
