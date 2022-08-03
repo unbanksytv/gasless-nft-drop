@@ -1,18 +1,14 @@
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: false,
-  eslint: {
-    dirs: ['src', '__tests__'],
-  },
-  images: {
-    loader: 'akamai',
-    domains: ['gateway.ipfscdn.io'],
-    path: '',
-  },
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: 'http://localhost:8000/:path*' // Proxy to Backend
+      }
+    ]
+  }
 }
-
-
 
 module.exports = nextConfig
