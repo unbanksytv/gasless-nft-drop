@@ -16,3 +16,11 @@ trim_trailing_whitespace = false
 
 [COMMIT_EDITMSG]
 max_line_length = 0
+
+[*.{sol,yul}]
+indent_style = space
+indent_size = 4
+
+[packages/**.js{,x}]
+indent_style = space
+indent_size = 2
