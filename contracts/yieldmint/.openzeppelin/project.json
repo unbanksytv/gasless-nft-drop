@@ -1,0 +1,63 @@
+{
+  "manifestVersion": "2.2",
+  "contracts": {
+    "Universe": "Universe",
+    "ChargedState": "ChargedState",
+    "ChargedSettings": "ChargedSettings",
+    "ChargedParticles": "ChargedParticles",
+    "ChargedManagers": "ChargedManagers",
+    "ParticleSplitter": "ParticleSplitter",
+    "GenericWalletManager": "GenericWalletManager",
+    "GenericWalletManagerB": "GenericWalletManagerB",
+    "GenericBasketManager": "GenericBasketManager",
+    "GenericBasketManagerB": "GenericBasketManagerB",
+    "AaveWalltManager": "AaveWalletManager",
+    "AaveWalltManagerB": "AaveWalletManagerB",
+    "AaveBridgeV2": "AaveBridgeV2",
+    "TokenInfoProxy": "TokenInfoProxy",
+    "Ionx": "Ionx",
+    "Proton": "Proton",
+    "ProtonB": "ProtonB",
+    "Lepton": "Lepton",
+    "Lepton2": "Lepton2",
+    "ExternalERC721": "ExternalERC721",
+    "FungibleERC1155": "FungibleERC1155",
+    "NonFungibleERC1155": "NonFungibleERC1155",
+    "Staking": "Staking",
+    "YieldFarm": "YieldFarm",
+    "Staking2": "Staking2",
+    "YieldFarm2": "YieldFarm2",
+    "CommunityVault": "CommunityVault",
+    "MerkleDistributor": "MerkleDistributor",
+    "MerkleDistributor2": "MerkleDistributor2", 
+    "MerkleDistributor3": "MerkleDistributor3",
+    "VestingClaim": "VestingClaim",
+    "VestingClaim2": "VestingClaim2",
+    "VestingClaim3": "VestingClaim3",
+    "VestingClaim4": "VestingClaim4",
+    "VestingClaim5": "VestingClaim5",
+    "VestingClaim6": "VestingClaim6",
+    "VestingClaim7": "VestingClaim7"
+  },
+  "dependencies": {
+  },
+  "name": "charged-particles",
+  "version": "1.0.0",
+  "telemetryOptIn": false,
+  "compiler": {
+    "manager": "openzeppelin",
+    "solcVersion": "0.6.12",
+    "compilerSettings": {
+      "optimizer": {
+        "enabled": false,
+        "runs": "200"
+      },
+      "evmVersion": "istanbul"
+    },
+    "artifactsDir": "build",
+    "contractsDir": "contracts",
+    "typechain": {
+      "enabled": false
+    }
+  }
+}
