@@ -1,6 +1,6 @@
 import tw from "tailwind-styled-components";
 import Image from "next/image";
-import logo from "../assets/LTL_V2-02.png";
+import logo from "../assets/logos/LTL_Logo_32.png";
 
 const Header = () => {
   return (
