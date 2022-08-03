@@ -19,7 +19,7 @@ const LTLMarketplace: FC<AppProps> = ({ Component, pageProps }) => (
           },
         },
       }}
-      desiredChainId={ChainId.Mumbai}
+      desiredChainId={ChainId.Rinkeby}
       >
       <MainLayout>
         <Component {...pageProps} />
