@@ -11,6 +11,9 @@
     "graphql-codegen": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "@thirdweb-dev/contracts": "^2.3.9",
     "@chakra-ui/react": "^2.2.4",
     "@n8tb1t/use-scroll-position": "^2.0.3",
     "@rainbow-me/rainbowkit": "0.4.5",
