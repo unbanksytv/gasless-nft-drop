@@ -17,6 +17,7 @@
     "@thirdweb-dev/sdk": "^2.3.19",
     "ethers": "^5.6.6",
     "next": "12.1.6",
+    "next-auth": "^4.10.1",
     "big-number": "^2.0.0",
     "date-fns": "^2.28.0",
     "dotenv": "^16.0.1",
