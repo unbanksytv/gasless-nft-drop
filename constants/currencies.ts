@@ -168,112 +168,6 @@ const Mumbai: CurrencyMetadata[] = [
   },
 ];
 
-const Fantom: CurrencyMetadata[] = [
-  {
-    address: constants.AddressZero,
-    name: "Fantom",
-    symbol: "FTM",
-  },
-  {
-    address: OtherAddressZero,
-    name: "Fantom",
-    symbol: "FTM",
-  },
-  {
-    name: "Wrapped Ether",
-    address: "0x74b23882a30290451A17c44f4F05243b6b58C76d",
-    symbol: "WETH",
-  },
-  {
-    name: "USD Coin",
-    address: "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
-    symbol: "USDC",
-  },
-  {
-    name: "Wrapped Bitcoin",
-    address: "0x321162Cd933E2Be498Cd2267a90534A804051b11",
-    symbol: "WBTC",
-  },
-  {
-    name: "Wrapped Fantom",
-    address: "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
-    symbol: "WFTM",
-  },
-];
-
-const FantomTestnet: CurrencyMetadata[] = [
-  {
-    address: constants.AddressZero,
-    name: "Fantom",
-    symbol: "FTM",
-  },
-  {
-    address: OtherAddressZero,
-    name: "Fantom",
-    symbol: "FTM",
-  },
-  {
-    name: "Wrapped Fantom",
-    address: "0xf1277d1Ed8AD466beddF92ef448A132661956621",
-    symbol: "WFTM",
-  },
-];
-
-const Avalanche: CurrencyMetadata[] = [
-  {
-    address: constants.AddressZero,
-    name: "Avalanche",
-    symbol: "AVAX",
-  },
-  {
-    address: OtherAddressZero,
-    name: "Avalanche",
-    symbol: "AVAX",
-  },
-  {
-    address: "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
-    name: "Wrapped AVAX",
-    symbol: "WAVAX",
-  },
-  {
-    address: "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
-    name: "Wrapped Ether",
-    symbol: "WETH",
-  },
-  {
-    address: "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
-    name: "Tether USD",
-    symbol: "USDT",
-  },
-  {
-    address: "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
-    name: "USD Coin",
-    symbol: "USDC",
-  },
-  {
-    address: "0x50b7545627a5162F82A992c33b87aDc75187B218",
-    name: "Wrapped BTC",
-    symbol: "WBTC",
-  },
-];
-
-const AvalancheFujiTestnet: CurrencyMetadata[] = [
-  {
-    address: constants.AddressZero,
-    name: "Avalanche",
-    symbol: "AVAX",
-  },
-  {
-    address: OtherAddressZero,
-    name: "Avalanche",
-    symbol: "AVAX",
-  },
-  {
-    address: "0xd00ae08403B9bbb9124bB305C09058E32C39A48c",
-    name: "Wrapped AVAX",
-    symbol: "WAVAX",
-  },
-];
 
 const Optimism: CurrencyMetadata[] = [
   {
@@ -353,10 +247,6 @@ export const CURRENCIES: Record<SUPPORTED_CHAIN_ID, CurrencyMetadata[]> = {
   [ChainId.Goerli]: Goerli,
   [ChainId.Polygon]: Polygon,
   [ChainId.Mumbai]: Mumbai,
-  [ChainId.Fantom]: Fantom,
-  [ChainId.FantomTestnet]: FantomTestnet,
-  [ChainId.Avalanche]: Avalanche,
-  [ChainId.AvalancheFujiTestnet]: AvalancheFujiTestnet,
   [ChainId.Optimism]: Optimism,
   [ChainId.OptimismTestnet]: OptimismTestnet,
   [ChainId.Arbitrum]: Arbitrum,
