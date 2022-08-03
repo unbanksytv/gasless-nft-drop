@@ -30,3 +30,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# Dapptools
+out/
+.env
+cache
+

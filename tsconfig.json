@@ -15,12 +15,23 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "outDir": "dist",
     "downlevelIteration": true,
     "paths": {
       "tw-components": ["tw-components"],
       "tw-components/*": ["tw-components/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "additional.d.ts"],
+  "include": [
+    "next-env.d.ts", 
+    "**/*.ts", 
+    "**/*.tsx", 
+    "additional.d.ts",
+    "hardhat.config.ts",
+    "./scripts",
+    "./deploy",
+    "./test",
+    "typechain/**/*"
+  ],
   "exclude": ["node_modules", ".next"]
 }
